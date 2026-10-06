@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité · Rummi</title>
+<meta name="description" content="Comment Rummi traite vos données : qui en est responsable, pourquoi, combien de temps, et vos droits.">
+<meta name="theme-color" content="#0E0D0C">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230E0D0C'/%3E%3Cg transform='translate(8 0) skewX(-13)'%3E%3Crect x='10' y='13' width='44' height='38' fill='%2317D4FA'/%3E%3Crect x='14' y='17' width='36' height='30' fill='%23F5F2EC'/%3E%3C/g%3E%3Ctext x='33' y='42' font-family='Arial,Helvetica,sans-serif' font-size='24' font-weight='800' font-style='italic' text-anchor='middle' fill='%23C8102E'%3ER%3C/text%3E%3C/svg%3E">
+<style>
+:root {
+  --bg: #0E0D0C;
+  --card: #161514;
+  --line: #2E2C2A;
+  --cream: #F5F2EC;
+  --muted: #9A9793;
+  --red: #C8102E;
+  --red-2: #E01B36;
+  --cyan: #17D4FA;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--cream); font-family: Archivo, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+a { color: var(--cyan); }
+a:hover { color: #5FE2FF; }
+a:focus-visible { outline: 3px solid var(--cyan); outline-offset: 3px; }
+.top { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 24px; background: rgba(14, 13, 12, .9); border-bottom: 3px solid var(--cyan); }
+.top img { display: block; height: 30px; width: auto; }
+.back { display: inline-block; background: var(--red); color: #fff; font-weight: 800; font-style: italic; font-size: 13.5px; padding: 10px 19px; text-decoration: none; transform: skewX(-13deg); }
+.back span { display: block; transform: skewX(13deg); }
+.back:hover { background: var(--red-2); color: #fff; }
+main { max-width: 760px; margin: 0 auto; padding: 56px 24px 72px; }
+.kicker { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11.5px; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); display: inline-flex; align-items: center; gap: 10px; }
+.kicker i { display: inline-block; width: 15px; height: 6px; background: var(--cyan); transform: skewX(-22deg); }
+.kicker i + i { width: 6px; background: var(--red); }
+h1 { margin: 14px 0 32px; font-weight: 800; font-size: clamp(32px, 6vw, 48px); line-height: 1.05; letter-spacing: -.03em; }
+section { background: var(--card); border: 1px solid var(--line); padding: 24px; margin-bottom: 14px; }
+h2 { margin: 0 0 12px; font-size: 19px; letter-spacing: -.01em; }
+p { margin: 0 0 8px; color: var(--muted); }
+p:last-child { margin-bottom: 0; }
+dl { margin: 0; display: grid; gap: 10px; }
+dl div { display: grid; gap: 0 16px; }
+@media (min-width: 640px) { dl div { grid-template-columns: 210px 1fr; } }
+dt { font-weight: 600; color: var(--cream); }
+dd { margin: 0; color: var(--muted); }
+footer { border-top: 1px solid var(--line); padding: 26px 24px 40px; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 12px; letter-spacing: .06em; color: #6E6B67; text-align: center; }
+.maj { margin: -18px 0 28px; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 12px; letter-spacing: .06em; color: var(--muted); }
+h3 { margin: 20px 0 8px; font-size: 16px; color: var(--cream); }
+ul, ol { margin: 0 0 10px; padding-left: 22px; color: var(--muted); }
+li { margin: 5px 0; }
+strong { color: var(--cream); }
+.tableau { overflow-x: auto; margin: 6px 0 12px; }
+table { width: 100%; min-width: 480px; border-collapse: collapse; font-size: 14.5px; }
+th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-top: 1px solid var(--line); color: var(--muted); }
+th { color: var(--cream); font-weight: 600; border-top: 0; }
+footer a { color: #9A9793; }
+</style>
+</head>
+<body>
+<header class="top">
+  <a href="./" aria-label="Rummi, retour à l’accueil"><img src="rummi-logo.png" alt="Rummi" width="910" height="326"></a>
+  <a class="back" href="./"><span>Retour à l’accueil</span></a>
+</header>
+
+<main>
+  <span class="kicker"><span><i></i> <i></i></span>Informations</span>
+  <h1>Politique de confidentialité</h1>
+  <p class="maj">Mise à jour : 06/10/2026</p>
+
+  <section>
+<h2>En bref</h2>
+<ul>
+<li><strong>Rummi</strong> est un service de communication pour les commerçants, sur WhatsApp, proposé par Matthieu Arnould, entrepreneur individuel.</li>
+<li>Vos données servent à rendre ce service et à l'améliorer. Si vous êtes un commerçant que nous démarchons, elles servent aussi à vous présenter Rummi. Nous ne vendons aucune donnée.</li>
+<li>Chaque donnée est gardée le temps nécessaire, pas plus : un message vocal est effacé 7 jours après sa transcription.</li>
+<li>Des prestataires nous aident (WhatsApp, intelligence artificielle, paiement). Certains sont hors de l'Union européenne, avec des garanties.</li>
+<li>Vous pouvez voir, corriger ou supprimer vos données à tout moment : écrivez à matthieu@rummi.fr. Client d'un commerçant : répondez « stop » sur WhatsApp.</li>
+</ul>
+  </section>
+  <section>
+<h2>1. Qui est responsable de vos données</h2>
+<p>Le responsable est <strong>Matthieu Arnould</strong>, entrepreneur individuel (EI), qui exerce sous le nom commercial <strong>Rummi</strong>.</p>
+<ul>
+<li>SIREN : 101 576 486</li>
+<li>Adresse : 8 bis chemin Pierre Cadet, 97432 Saint-Pierre, La Réunion</li>
+<li>E-mail : matthieu@rummi.fr</li>
+</ul>
+<p>Rummi n'a pas de délégué à la protection des données : pour toute question, écrivez à matthieu@rummi.fr. La Réunion fait partie de l'Union européenne : le RGPD s'y applique.</p>
+  </section>
+  <section>
+<h2>2. À qui s'adresse cette politique</h2>
+<p>Elle concerne trois groupes de personnes. Pour les clients d'un commerçant, Rummi agit pour le compte du commerçant et sur ses instructions : c'est lui le responsable.</p>
+<div class="tableau"><table>
+<thead>
+<tr>
+<th>Vous êtes</th>
+<th>Le rôle de Rummi</th>
+<th>Exemple</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Un commerçant client de Rummi, ou un membre de son équipe</td>
+<td>responsable du traitement</td>
+<td>un garagiste envoie la photo d'une réparation</td>
+</tr>
+<tr>
+<td>Un client de ce commerçant</td>
+<td>sous-traitant du commerçant</td>
+<td>une cliente prend rendez-vous sur WhatsApp</td>
+</tr>
+<tr>
+<td>Un commerçant que nous démarchons, un visiteur de rummi.fr, ou une personne qui nous contacte</td>
+<td>responsable du traitement</td>
+<td>Rummi appelle un garage repéré sur Google</td>
+</tr>
+</tbody>
+</table></div>
+  </section>
+  <section>
+<h2>3. Les données, leurs usages et leurs bases légales</h2>
+<h3>Si vous êtes commerçant</h3>
+<div class="tableau"><table>
+<thead>
+<tr>
+<th>Données</th>
+<th>Pourquoi</th>
+<th>Base légale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nom, prénom, fonction, coordonnées</td>
+<td>gérer le contrat et vous répondre</td>
+<td>le contrat</td>
+</tr>
+<tr>
+<td>Messages WhatsApp (textes et vocaux), réponses au questionnaire</td>
+<td>comprendre vos demandes, préparer vos publications</td>
+<td>le contrat</td>
+</tr>
+<tr>
+<td>Photos et vidéos de votre entreprise, de vous et de votre équipe, prises par Rummi lors de sa visite ou envoyées par vous</td>
+<td>créer et publier votre communication ; elles peuvent être retouchées et, si vous l'acceptez dans le bon de commande, modifiées ou animées par l'IA</td>
+<td>le contrat ; pour votre équipe, l'accord de chacun, que vous nous déclarez</td>
+</tr>
+<tr>
+<td>Accès à votre fiche Google et à vos pages Facebook et Instagram</td>
+<td>publier, répondre aux avis et aux commentaires, mesurer les résultats</td>
+<td>le contrat</td>
+</tr>
+<tr>
+<td>Données de facturation</td>
+<td>facturer et encaisser</td>
+<td>la loi ; le contrat</td>
+</tr>
+<tr>
+<td>Vos corrections et des visuels réussis, gardés comme exemples</td>
+<td>améliorer le service</td>
+<td>notre intérêt légitime</td>
+</tr>
+<tr>
+<td>Votre témoignage, vos images dans la publicité de Rummi</td>
+<td>faire connaître Rummi</td>
+<td>votre accord écrit, demandé à chaque fois</td>
+</tr>
+</tbody>
+</table></div>
+<p>Ces données sont nécessaires au contrat : sans elles, Rummi ne peut pas rendre le service. Un membre de l'équipe peut retirer son accord à tout moment, en écrivant à matthieu@rummi.fr ou en le disant au commerçant : Rummi retire alors ses images des publications à venir.</p>
+<p>Pour analyser votre marché, Rummi lit aussi des informations publiques : les fiches et les avis des commerces voisins sur Google, et des comptes Instagram publics suivis en veille. Elles ne servent qu'à cette analyse.</p>
+<h3>Si vous êtes client d'un commerçant</h3>
+<div class="tableau"><table>
+<thead>
+<tr>
+<th>Données</th>
+<th>Pourquoi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Votre nom tel qu'affiché par Google, et le texte de votre avis</td>
+<td>répondre à votre avis</td>
+</tr>
+<tr>
+<td>Le texte de votre avis Google, avec sa note et son mois, sans votre nom</td>
+<td>le montrer en image sur les pages du commerçant (Facebook, Instagram, Google)</td>
+</tr>
+<tr>
+<td>Vos commentaires et messages sur Facebook ou Instagram, si le commerçant a activé ce service</td>
+<td>vous répondre</td>
+</tr>
+<tr>
+<td>Pour un rendez-vous, si le commerçant a activé ce service : votre numéro, votre nom et votre prénom, le motif, vos disponibilités, puis la date retenue et si vous êtes venu</td>
+<td>prendre le rendez-vous, vous le rappeler la veille</td>
+</tr>
+<tr>
+<td>Après la visite : votre réponse à « Tout s'est bien passé ? », puis votre avis</td>
+<td>la transmettre telle quelle au commerçant, sans jamais la publier ; vous demander un avis</td>
+</tr>
+<tr>
+<td>Votre numéro, gardé dans le fichier clients du commerçant</td>
+<td>permettre au commerçant de vous retrouver</td>
+</tr>
+</tbody>
+</table></div>
+<p>Les avis et les commentaires viennent de Google, Facebook et Instagram, où vous les avez publiés. Nous ne demandons jamais votre adresse ni votre plaque d'immatriculation. Les photos prises dans l'atelier peuvent montrer votre voiture : Rummi ne publie jamais une plaque lisible ni le visage reconnaissable d'un client, l'image est floutée ou écartée.</p>
+<p>La base légale est choisie par le commerçant : votre demande, pour prendre le rendez-vous ; votre accord, pour le rappel de la veille et les messages après la visite ; son intérêt légitime, pour répondre aux avis et pour montrer un avis sans votre nom. Le rappel et les messages après la visite ne partent que si vous avez répondu « Oui ». Vous ne recevez aucun message commercial sans votre accord, et vous pouvez le retirer à tout moment en répondant « stop ».</p>
+<h3>Si nous vous démarchons</h3>
+<div class="tableau"><table>
+<thead>
+<tr>
+<th>Données</th>
+<th>Pourquoi</th>
+<th>Base légale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nom du commerce et du gérant, téléphone, informations publiques de votre fiche Google et de votre page Facebook</td>
+<td>choisir les commerces à qui présenter Rummi, préparer l'échange</td>
+<td>notre intérêt légitime à présenter Rummi à des professionnels</td>
+</tr>
+<tr>
+<td>Votre numéro WhatsApp, si vous nous le donnez</td>
+<td>vous envoyer ce que nous vous avons promis</td>
+<td>votre accord</td>
+</tr>
+<tr>
+<td>Nos notes d'échange</td>
+<td>suivre nos échanges</td>
+<td>notre intérêt légitime</td>
+</tr>
+</tbody>
+</table></div>
+<p>Ces informations viennent de votre fiche Google et de votre page Facebook, qui sont publiques. Vous pouvez refuser le démarchage à tout moment, au téléphone, sur WhatsApp ou par e-mail : nous arrêtons, sans condition.</p>
+<h3>Si vous visitez rummi.fr ou nous contactez</h3>
+<div class="tableau"><table>
+<thead>
+<tr>
+<th>Données</th>
+<th>Pourquoi</th>
+<th>Base légale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Votre adresse IP, que GitHub, qui héberge le site, enregistre pour sa sécurité, selon ses propres règles (<a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages" rel="noopener">GitHub</a>)</td>
+<td>protéger le site</td>
+<td>intérêt légitime</td>
+</tr>
+<tr>
+<td>Nom, e-mail, téléphone et message, quand vous nous écrivez ou réservez une démonstration</td>
+<td>vous répondre, organiser la démonstration</td>
+<td>votre demande ; notre intérêt légitime</td>
+</tr>
+</tbody>
+</table></div>
+  </section>
+  <section>
+<h2>4. WhatsApp et l'assistant IA</h2>
+<p>Rummi vous écrit sur WhatsApp, depuis ses propres numéros. Vos messages passent par la plateforme WhatsApp Business de Meta, qui les transmet à Rummi.</p>
+<ul>
+<li><strong>L'assistant est un programme automatisé (IA).</strong> Il lit vos messages, vos vocaux transcrits en texte et vos photos, pour comprendre votre demande. Rummi enregistre aussi l'heure de chaque message, et s'il a été reçu et lu.</li>
+<li><strong>Un humain garde la main.</strong> Pendant le pilote, Matthieu Arnould relit chaque publication avant qu'elle soit proposée au commerçant. Vous pouvez toujours demander à lui parler directement.</li>
+<li><strong>Aucune décision</strong> qui a un effet juridique sur vous, ou qui vous touche de façon importante, n'est prise par l'IA seule.</li>
+<li><strong>Pas d'entraînement.</strong> OpenAI et Anthropic n'entraînent pas leurs modèles avec les données que Rummi leur envoie par leurs services professionnels (<a href="https://openai.com/enterprise-privacy/" rel="noopener">OpenAI</a>, <a href="https://www.anthropic.com/legal/commercial-terms" rel="noopener">Anthropic</a>).</li>
+<li><strong>Les clients d'un commerçant</strong> qui écrivent pour un rendez-vous parlent à l'assistant automatique de ce commerçant ; le premier message le présente comme son assistant.</li>
+</ul>
+  </section>
+  <section>
+<h2>5. Qui reçoit vos données</h2>
+<p>Des prestataires techniques traitent vos données pour Rummi, chacun pour sa seule tâche. Nous ne vendons ni ne louons aucune donnée.</p>
+<div class="tableau"><table>
+<thead>
+<tr>
+<th>Prestataire</th>
+<th>Son rôle pour Rummi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Meta (WhatsApp)</td>
+<td>transmettre les messages WhatsApp</td>
+</tr>
+<tr>
+<td>OpenAI, Anthropic</td>
+<td>rédaction et assistant (IA)</td>
+</tr>
+<tr>
+<td>fal.ai</td>
+<td>images, vidéos, voix, transcription des vocaux</td>
+</tr>
+<tr>
+<td>Zernio</td>
+<td>publier sur Facebook, Instagram et Google ; lire les avis, les commentaires et les messages privés, et y répondre ; lire les statistiques</td>
+</tr>
+<tr>
+<td>Google</td>
+<td>fiche Google, e-mail, lecture des avis et des commerces voisins</td>
+</tr>
+<tr>
+<td>Stripe</td>
+<td>paiements et prélèvements</td>
+</tr>
+<tr>
+<td>GitHub</td>
+<td>hébergement du site rummi.fr</td>
+</tr>
+<tr>
+<td>Calendly</td>
+<td>réservation d'une démonstration</td>
+</tr>
+<tr>
+<td>OVHcloud, en France</td>
+<td>le serveur qui fait tourner Rummi et garde ses données et ses fichiers</td>
+</tr>
+<tr>
+<td>Scaleway, en France</td>
+<td>les copies de sauvegarde</td>
+</tr>
+</tbody>
+</table></div>
+<p>Meta, Google et Stripe peuvent aussi utiliser certaines de ces données pour leurs propres obligations (sécurité, lutte contre la fraude, loi), selon leurs propres règles. Les données des clients d'un commerçant ne servent qu'à ce commerçant. Un commerçant client est prévenu 30 jours avant l'arrivée d'un nouveau prestataire. Nous ne transmettons des données aux autorités que si la loi nous y oblige.</p>
+  </section>
+  <section>
+<h2>6. Transferts hors de l'Union européenne</h2>
+<p>Certains prestataires sont situés hors de l'Union européenne, surtout aux États-Unis. Chaque transfert est protégé de l'une de ces deux façons : la décision d'adéquation de la Commission européenne, qui reconnaît que les entreprises inscrites au « Data Privacy Framework » protègent assez vos données ; ou les clauses contractuelles types, un contrat écrit par la Commission européenne et signé par le prestataire. Pour savoir laquelle vaut pour chaque prestataire, ou en obtenir une copie, écrivez à matthieu@rummi.fr.</p>
+  </section>
+  <section>
+<h2>7. Combien de temps nous les gardons</h2>
+<div class="tableau"><table>
+<thead>
+<tr>
+<th>Donnée</th>
+<th>Durée de conservation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fichier audio d'un message vocal</td>
+<td>7 jours après sa transcription</td>
+</tr>
+<tr>
+<td>Journal des échanges avec les outils d'IA</td>
+<td>30 jours</td>
+</tr>
+<tr>
+<td>Photos écartées, inutilisables</td>
+<td>6 mois après leur arrivée</td>
+</tr>
+<tr>
+<td>Messages WhatsApp et transcriptions d'un commerçant</td>
+<td>la durée du contrat</td>
+</tr>
+<tr>
+<td>Avis, commentaires et messages des clients d'un commerçant</td>
+<td>la durée du contrat</td>
+</tr>
+<tr>
+<td>Rendez-vous d'un client d'un commerçant</td>
+<td>12 mois après le dernier contact, et au plus tard 60 jours après la fin du contrat du commerçant</td>
+</tr>
+<tr>
+<td>Vos corrections et visuels gardés comme exemples</td>
+<td>60 jours après la fin du contrat, comme le reste</td>
+</tr>
+<tr>
+<td>Tout le reste, après la fin du contrat</td>
+<td>60 jours</td>
+</tr>
+<tr>
+<td>Contrat, factures, preuves de vos accords</td>
+<td>la durée fixée par la loi</td>
+</tr>
+<tr>
+<td>Commerces démarchés, messages et demandes de démonstration</td>
+<td>3 ans après le dernier échange venant de vous ; si vous n'avez jamais répondu, après leur collecte</td>
+</tr>
+<tr>
+<td>Empreinte du numéro d'une personne qui a dit « stop »</td>
+<td>3 ans après sa demande</td>
+</tr>
+<tr>
+<td>Adresse IP des visiteurs de rummi.fr</td>
+<td>selon les règles de GitHub</td>
+</tr>
+</tbody>
+</table></div>
+<p>À la fin du délai, la donnée est supprimée. Comme une donnée effacée à votre demande, elle reste au plus 30 jours dans nos copies de sauvegarde, qui s'effacent d'elles-mêmes. Une photo publiée est gardée tant que dure le contrat.</p>
+  </section>
+  <section>
+<h2>8. Vos droits, et comment supprimer vos données</h2>
+<p>Vous pouvez à tout moment :</p>
+<ul>
+<li>voir les données que nous avons sur vous, et en recevoir une copie ;</li>
+<li>les faire corriger ou supprimer ;</li>
+<li>recevoir les données que vous nous avez fournies dans un fichier lisible par un ordinateur, ou nous demander de les envoyer à un autre prestataire ;</li>
+<li>limiter leur usage ;</li>
+<li>retirer un accord donné, sans effet sur ce qui a été fait avant ;</li>
+<li>dire ce que deviennent vos données après votre décès.</li>
+</ul>
+<p><strong>Vous pouvez vous opposer à tout moment</strong> à l'usage de vos données fondé sur notre intérêt légitime : exemples gardés pour améliorer le service, démarchage. Pour le démarchage, il suffit de le dire : nous arrêtons, sans condition.</p>
+<h3>Supprimer vos données</h3>
+<ol>
+<li>Écrivez à matthieu@rummi.fr, avec pour objet « Suppression de mes données ». Ajoutez votre numéro WhatsApp si vous nous avez écrit par ce moyen.</li>
+<li>Rummi vous confirme la demande et efface vos données sous 30 jours.</li>
+<li>Seuls restent le contrat, les factures et la trace de vos accords, le temps fixé par la loi.</li>
+</ol>
+<p><strong>Client d'un commerçant :</strong> répondez « stop » ou « supprimez » sur WhatsApp. Rummi le confirme en une phrase et efface ce qu'il garde sous 30 jours. Il conserve seulement une empreinte de votre numéro (votre numéro transformé en code), pour ne plus vous écrire. Votre demande de rendez-vous, déjà transmise au commerçant, est aussi chez lui : demandez-lui de l'effacer. Pour toute autre demande, nous la transmettons au commerçant, qui en décide, et nous l'aidons à vous répondre.</p>
+<p>Nous répondons à toute demande sous un mois au plus. En cas de doute, nous pouvons vous demander de prouver votre identité. Vous pouvez aussi, à tout moment, adresser une réclamation à la CNIL (<a href="https://www.cnil.fr/fr/plaintes" rel="noopener">cnil.fr</a>).</p>
+  </section>
+  <section>
+<h2>9. Sécurité</h2>
+<ul>
+<li>Chez Rummi, seul Matthieu Arnould accède à vos données.</li>
+<li>Rummi gère votre fiche Google et vos pages comme gestionnaire, sans jamais connaître vos mots de passe.</li>
+<li>Les clés d'accès aux services ne sont jamais écrites dans le code.</li>
+<li>En cas de fuite de données, nous prévenons les commerçants concernés sous 48 heures, et la CNIL sous 72 heures quand la loi l'exige. Si la fuite présente un risque élevé pour vous, nous vous prévenons aussi directement.</li>
+</ul>
+  </section>
+  <section>
+<h2>10. Cookies sur rummi.fr</h2>
+<p>Le site ne dépose aucun cookie et n'utilise aucun outil de mesure d'audience. Le bouton de réservation ouvre Calendly, qui applique ses propres règles (<a href="https://calendly.com/legal/privacy-notice" rel="noopener">politique de Calendly</a>) ; Calendly ne reçoit rien tant que vous ne cliquez pas.</p>
+  </section>
+  <section>
+<h2>11. Mineurs, et modifications de cette politique</h2>
+<p>Rummi est un service pour les professionnels ; il n'est pas destiné aux mineurs.</p>
+<p>Nous pouvons modifier cette politique. La date de mise à jour figure en haut de la page. Un commerçant client est prévenu par écrit de tout changement qui le concerne.</p>
+  </section>
+</main>
+
+<footer>Rummi · Matthieu Arnould EI · Saint-Pierre, La Réunion · <a href="mentions-legales.html">Mentions légales</a></footer>
+</body>
+</html>
